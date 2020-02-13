@@ -15,7 +15,8 @@ class Artist
     @songs
   end
 end
-  kiki = Song.new("In My Feelings")
+
+kiki = Song.new("In My Feelings")
 hotline = Song.new("Hotline Bling")
 
 drake.add_song(kiki)
