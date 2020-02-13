@@ -29,6 +29,9 @@ class Artist
 end
 
 
+
   def artist_sound_count
+    @@ll = artist_sound_count
+  end 
 
 end
