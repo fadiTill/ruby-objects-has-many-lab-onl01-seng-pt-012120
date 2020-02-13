@@ -9,17 +9,10 @@ class Artist
 
   def add_song(song)
     @songs << song
+    song.artist = self
   end
 
   def songs
     @songs
   end
 end
-
-kiki = Song.new("In My Feelings")
-hotline = Song.new("Hotline Bling")
-
-drake.add_song(kiki)
-drake.add_song(hotline)
-
-drake.songs
